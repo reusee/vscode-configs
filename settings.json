@@ -25,5 +25,11 @@
             ]
         }
     ],
+    "workbench.welcome.enabled": true,
+    "workbench.colorTheme": "Quiet Light",
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": true,
+    "window.zoomLevel": 0,
 
 }
