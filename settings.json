@@ -1,8 +1,32 @@
 {
     "editor.fontSize": 16,
     "editor.cursorBlinking": "solid",
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": true,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.acceptSuggestionOnEnter": false,
+
+    "workbench.welcome.enabled": true,
+    "workbench.colorTheme": "Quiet Light",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.editor.openPositioning": "first",
 
     "files.trimTrailingWhitespace": true,
+
+    "explorer.openEditors.visible": 0,
+
+    "extensions.autoUpdate": true,
+
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
 
     "vim.hlsearch": true,
     "vim.leader": ",",
@@ -24,11 +48,16 @@
             ]
         }
     ],
-    "workbench.welcome.enabled": true,
-    "workbench.colorTheme": "Quiet Light",
+    "vim.easymotion": true,
+
     "window.menuBarVisibility": "toggle",
-    "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": true,
     "window.zoomLevel": 0,
+
+    "go.autocompleteUnimportedPackages": true,
+    "go.useLanguageServer": true,
+    "go.liveErrors": {
+        "enabled": true,
+        "delay": 500
+    },
 
 }
