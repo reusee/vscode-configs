@@ -54,7 +54,7 @@
     "window.zoomLevel": 0,
 
     "go.autocompleteUnimportedPackages": true,
-    "go.useLanguageServer": true,
+    "go.useLanguageServer": false,
     "go.liveErrors": {
         "enabled": true,
         "delay": 500
