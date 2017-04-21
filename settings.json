@@ -14,7 +14,7 @@
 
     "workbench.welcome.enabled": true,
     "workbench.colorTheme": "Quiet Light",
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "workbench.editor.tabCloseButton": "off",
     "workbench.editor.openPositioning": "first",
@@ -46,6 +46,16 @@
                     "args": []
                 }
             ]
+        },
+        {
+            "before": ["leader", "q"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
         }
     ],
     "vim.easymotion": true,
@@ -57,7 +67,7 @@
     "go.useLanguageServer": false,
     "go.liveErrors": {
         "enabled": true,
-        "delay": 500
-    },
+        "delay": 50
+    }
 
 }
