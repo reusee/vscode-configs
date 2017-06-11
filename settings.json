@@ -1,9 +1,11 @@
 {
+    "editor.fontFamily": "monaco",
     "editor.fontSize": 16,
     "editor.cursorBlinking": "solid",
     "editor.tabSize": 2,
     "editor.renderWhitespace": "none",
     "editor.minimap.enabled": true,
+    "editor.lineNumbers": "relative",
     "editor.mouseWheelScrollSensitivity": 2,
     "editor.quickSuggestions": {
         "other": true,
@@ -21,7 +23,7 @@
 
     "files.trimTrailingWhitespace": true,
 
-    "explorer.openEditors.visible": 0,
+    "explorer.openEditors.visible": 1,
 
     "extensions.autoUpdate": true,
 
@@ -68,6 +70,6 @@
     "go.liveErrors": {
         "enabled": true,
         "delay": 50
-    }
-
+    },
+    "vim.disableAnnoyingNeovimMessage": true,
 }
