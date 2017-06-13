@@ -12,7 +12,7 @@
         "comments": true,
         "strings": true
     },
-    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.acceptSuggestionOnEnter": "off",
 
     "workbench.welcome.enabled": true,
     "workbench.colorTheme": "Quiet Light",
