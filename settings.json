@@ -71,5 +71,6 @@
         "enabled": true,
         "delay": 50
     },
+    "go.inferGopath": true,
     "vim.disableAnnoyingNeovimMessage": true,
 }
