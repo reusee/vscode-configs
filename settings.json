@@ -1,6 +1,6 @@
 {
     "editor.fontFamily": "monaco",
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "editor.cursorBlinking": "solid",
     "editor.tabSize": 2,
     "editor.renderWhitespace": "none",
@@ -12,20 +12,28 @@
         "comments": true,
         "strings": true
     },
+    "editor.quickSuggestionsDelay": 5,
     "editor.acceptSuggestionOnEnter": "off",
+    "editor.folding": false,
+    "editor.links": false,
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.renderIndicators": false,
 
-    "workbench.welcome.enabled": true,
     "workbench.colorTheme": "Quiet Light",
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
     "workbench.editor.tabCloseButton": "off",
     "workbench.editor.openPositioning": "first",
+    "workbench.iconTheme": "vs-seti",
 
     "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
 
-    "explorer.openEditors.visible": 1,
+    "explorer.openEditors.visible": 3,
+    "explorer.sortOrder": "mixed",
 
     "extensions.autoUpdate": true,
+    "extensions.ignoreRecommendations": true,
 
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
@@ -61,16 +69,32 @@
         }
     ],
     "vim.easymotion": true,
+    "vim.disableAnnoyingNeovimMessage": true,
 
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "default",
     "window.zoomLevel": 0,
+    "window.enableMenuBarMnemonics": false,
 
     "go.autocompleteUnimportedPackages": true,
-    "go.useLanguageServer": false,
+    "go.useLanguageServer": true,
     "go.liveErrors": {
         "enabled": true,
         "delay": 50
     },
     "go.inferGopath": true,
-    "vim.disableAnnoyingNeovimMessage": true,
+    "go.testTimeout": "300s",
+    "go.enableCodeLens": {
+        "references": false,
+        "runtest": false
+    },
+
+    "debug.hideActionBar": true,
+
+    "terminal.explorerKind": "integrated",
+    "terminal.integrated.lineHeight": 1.1,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.scrollback": 100000,
+
+    "emmet.showExpandedAbbreviation": "never",
+
 }

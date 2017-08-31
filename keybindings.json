@@ -7,4 +7,29 @@
 },{
     "key": "ctrl+down",
     "command": "workbench.action.terminal.toggleTerminal",
-}]
+},
+{
+    "key": "ctrl+f",
+    "command": "-actions.find"
+},
+{
+    "key": "ctrl+f",
+    "command": "-workbench.action.terminal.focusFindWidget",
+    "when": "terminalFocus"
+},
+{
+    "key": "ctrl+f",
+    "command": "-extension.vim_ctrl+f",
+    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl"
+},
+{
+    "key": "ctrl+f",
+    "command": "-keybindings.editor.searchKeybindings",
+    "when": "inKeybindings && keybindingFocus"
+},
+{
+    "key": "ctrl+f",
+    "command": "-settings.action.search",
+    "when": "inSettingsEditor"
+}
+]
