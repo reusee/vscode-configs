@@ -21,7 +21,7 @@
 
     "workbench.colorTheme": "Quiet Light",
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "workbench.editor.tabCloseButton": "off",
     "workbench.editor.openPositioning": "first",
     "workbench.iconTheme": "vs-seti",
@@ -75,7 +75,6 @@
     "window.zoomLevel": 0,
     "window.enableMenuBarMnemonics": false,
 
-    "go.autocompleteUnimportedPackages": true,
     "go.useLanguageServer": true,
     "go.liveErrors": {
         "enabled": true,
@@ -95,6 +94,6 @@
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.scrollback": 100000,
 
-    "emmet.showExpandedAbbreviation": "never",
+    "emmet.showExpandedAbbreviation": "never"
 
 }
