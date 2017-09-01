@@ -21,7 +21,7 @@
 
     "workbench.colorTheme": "Quiet Light",
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "workbench.editor.tabCloseButton": "off",
     "workbench.editor.openPositioning": "first",
     "workbench.iconTheme": "vs-seti",
@@ -75,7 +75,7 @@
     "window.zoomLevel": 0,
     "window.enableMenuBarMnemonics": false,
 
-    "go.useLanguageServer": true,
+    "go.useLanguageServer": false,
     "go.liveErrors": {
         "enabled": true,
         "delay": 50
