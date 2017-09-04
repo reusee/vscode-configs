@@ -29,7 +29,7 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
 
-    "explorer.openEditors.visible": 3,
+    "explorer.openEditors.visible": 0,
     "explorer.sortOrder": "mixed",
 
     "extensions.autoUpdate": true,
