@@ -6,7 +6,8 @@
     "editor.renderWhitespace": "none",
     "editor.minimap.enabled": true,
     "editor.lineNumbers": "relative",
-    "editor.mouseWheelScrollSensitivity": 2,
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelScrollSensitivity": 4,
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
