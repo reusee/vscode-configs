@@ -67,6 +67,16 @@
                     "args": []
                 }
             ]
+        },
+        {
+            "before": ["leader", "t"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "go.test.cursor",
+                    "args": []
+                }
+            ]
         }
     ],
     "vim.easymotion": true,
