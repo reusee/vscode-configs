@@ -77,6 +77,16 @@
                     "args": []
                 }
             ]
+        },
+        {
+            "before": ["L"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.nextEditor",
+                    "args": []
+                }
+            ]
         }
     ],
     "vim.easymotion": true,
