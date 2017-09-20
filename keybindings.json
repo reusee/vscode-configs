@@ -5,7 +5,7 @@
     "key": "ctrl+up",
     "command": "workbench.action.terminal.focusNext",
 },{
-    "key": "ctrl+down",
+    "key": "ctrl+p",
     "command": "workbench.action.terminal.toggleTerminal",
 },
 {

@@ -79,6 +79,16 @@
             ]
         },
         {
+            "before": ["leader", "r"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "go.test.previous",
+                    "args": []
+                }
+            ]
+        },
+        {
             "before": ["L"],
             "after": [],
             "commands": [
