@@ -49,6 +49,22 @@
     ],
     "vim.otherModesKeyBindingsNonRecursive": [
         {
+            "before": ["M"],
+            "commands": [
+                {
+                    "command": "cursorPageDown"
+                }
+            ]
+        },
+        {
+            "before": ["U"],
+            "commands": [
+                {
+                    "command": "cursorPageUp"
+                }
+            ]
+        },
+        {
             "before": ["leader", "w"],
             "after": [],
             "commands": [
@@ -99,7 +115,7 @@
             ]
         }
     ],
-    "vim.easymotion": true,
+    "vim.easymotion": false,
     "vim.disableAnnoyingNeovimMessage": true,
 
     "window.menuBarVisibility": "default",
@@ -117,6 +133,8 @@
         "references": false,
         "runtest": false
     },
+    "go.formatTool": "gofmt",
+    "go.useCodeSnippetsOnFunctionSuggest": true,
 
     "debug.hideActionBar": true,
 
