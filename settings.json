@@ -133,8 +133,7 @@
         "references": false,
         "runtest": false
     },
-    "go.formatTool": "gofmt",
-    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.formatTool": "goimports",
 
     "debug.hideActionBar": true,
 
