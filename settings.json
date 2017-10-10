@@ -134,6 +134,7 @@
         "runtest": false
     },
     "go.formatTool": "goimports",
+    "go.testFlags": ["-v"],
 
     "debug.hideActionBar": true,
 
