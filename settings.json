@@ -135,6 +135,7 @@
     },
     "go.formatTool": "goimports",
     "go.testFlags": ["-v"],
+    "go.vetOnSave": "off",
 
     "debug.hideActionBar": true,
 
