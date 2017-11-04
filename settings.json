@@ -142,6 +142,7 @@
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.scrollback": 100000,
 
-    "emmet.showExpandedAbbreviation": "never"
-
+    "emmet.showExpandedAbbreviation": "never",
+    "dart.debugSdkLibraries": false,
+    "dart.debugExternalLibraries": false
 }
