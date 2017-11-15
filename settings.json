@@ -146,5 +146,7 @@
 
     "emmet.showExpandedAbbreviation": "never",
     "dart.debugSdkLibraries": false,
-    "dart.debugExternalLibraries": false
+    "dart.debugExternalLibraries": false,
+
+    "typescript.tsdk": "/usr/lib/node_modules/typescript/lib"
 }
