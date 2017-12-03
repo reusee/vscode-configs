@@ -31,7 +31,7 @@
     "files.insertFinalNewline": true,
 
     "explorer.openEditors.visible": 0,
-    "explorer.sortOrder": "mixed",
+    "explorer.sortOrder": "filesFirst",
 
     "extensions.autoUpdate": true,
     "extensions.ignoreRecommendations": true,
