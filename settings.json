@@ -21,7 +21,7 @@
     "diffEditor.renderIndicators": false,
 
     "workbench.colorTheme": "Quiet Light",
-    "workbench.statusBar.visible": true,
+    "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": true,
     "workbench.editor.tabCloseButton": "off",
     "workbench.editor.openPositioning": "first",
@@ -31,7 +31,7 @@
     "files.insertFinalNewline": true,
 
     "explorer.openEditors.visible": 0,
-    "explorer.sortOrder": "mixed",
+    "explorer.sortOrder": "filesFirst",
 
     "extensions.autoUpdate": true,
     "extensions.ignoreRecommendations": true,
@@ -116,7 +116,6 @@
         }
     ],
     "vim.easymotion": false,
-    "vim.disableAnnoyingNeovimMessage": true,
 
     "window.menuBarVisibility": "default",
     "window.zoomLevel": 0,
@@ -128,13 +127,14 @@
         "delay": 50
     },
     "go.inferGopath": true,
-    "go.testTimeout": "300s",
+    "go.testTimeout": "3000s",
     "go.enableCodeLens": {
         "references": false,
         "runtest": false
     },
     "go.formatTool": "goimports",
     "go.testFlags": ["-v"],
+    "go.docsTool": "gogetdoc",
 
     "debug.hideActionBar": true,
 
@@ -144,5 +144,5 @@
     "terminal.integrated.scrollback": 100000,
 
     "emmet.showExpandedAbbreviation": "never",
-    "workbench.startupEditor": "newUntitledFile"
+    "explorer.confirmDragAndDrop": false
 }
