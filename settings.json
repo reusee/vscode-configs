@@ -135,6 +135,7 @@
     "go.formatTool": "goimports",
     "go.testFlags": ["-v"],
     "go.docsTool": "gogetdoc",
+    "go.vetOnSave": "off",
 
     "debug.hideActionBar": true,
 
@@ -144,5 +145,10 @@
     "terminal.integrated.scrollback": 100000,
 
     "emmet.showExpandedAbbreviation": "never",
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+
+    "dart.debugSdkLibraries": false,
+    "dart.debugExternalLibraries": false,
+
+    "typescript.tsdk": "/usr/lib/node_modules/typescript/lib"
 }
