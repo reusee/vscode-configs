@@ -1,6 +1,6 @@
 {
     "editor.fontFamily": "monaco",
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.cursorBlinking": "solid",
     "editor.tabSize": 2,
     "editor.renderWhitespace": "none",
@@ -142,7 +142,7 @@
 
     "terminal.explorerKind": "integrated",
     "terminal.integrated.lineHeight": 1.1,
-    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.scrollback": 100000,
 
     "emmet.showExpandedAbbreviation": "never",
