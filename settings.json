@@ -4,6 +4,7 @@
     "editor.cursorBlinking": "solid",
     "editor.tabSize": 2,
     "editor.renderWhitespace": "none",
+    "editor.dragAndDrop": false,
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
     "editor.smoothScrolling": true,
