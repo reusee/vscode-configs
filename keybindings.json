@@ -11,5 +11,10 @@
 		"key": "ctrl+p",
 		"command": "workbench.action.terminal.focus",
 		"when": "!terminalFocus"
+	},
+	{
+		"key": "ctrl+f",
+		"command": "-workbench.action.terminal.focusFindWidget",
+		"when": "terminalFocus"
 	}
 ]
