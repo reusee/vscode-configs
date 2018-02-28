@@ -151,5 +151,7 @@
     "dart.debugSdkLibraries": false,
     "dart.debugExternalLibraries": false,
 
+    "problems.decorations.enabled": false,
+
     "typescript.tsdk": "/usr/lib/node_modules/typescript/lib"
 }
