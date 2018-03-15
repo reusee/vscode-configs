@@ -154,5 +154,13 @@
 
     "problems.decorations.enabled": false,
 
-    "typescript.tsdk": "/usr/lib/node_modules/typescript/lib"
+    "localhistory.backupInterval": {
+        "default": "300"
+    },
+    "localhistory.numberOfLocalHistoryItems": {
+        "default": "100"
+    },
+
+    "typescript.tsdk": "/usr/lib/node_modules/typescript/lib",
+    "explorer.confirmDelete": false
 }
