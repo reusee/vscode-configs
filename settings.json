@@ -34,6 +34,7 @@
 
     "explorer.openEditors.visible": 0,
     "explorer.sortOrder": "filesFirst",
+    "explorer.autoReveal": false,
 
     "extensions.autoUpdate": true,
     "extensions.ignoreRecommendations": true,
